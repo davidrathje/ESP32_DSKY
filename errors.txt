@@ -1,0 +1,105 @@
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32-S3
+  Package           : 0
+  Revision          : 0.02
+  Cores             : 2
+  CPU Frequency     : 240 MHz
+  XTAL Frequency    : 40 MHz
+  Features Bitfield : 0x00000012
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : No
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   391276 B ( 382.1 KB)
+  Free Bytes        :   359056 B ( 350.6 KB)
+  Allocated Bytes   :    27252 B (  26.6 KB)
+  Minimum Free Bytes:   354008 B ( 345.7 KB)
+  Largest Free Block:   319476 B ( 312.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        :  8388608 B (8192.0 KB)
+  Free Bytes        :  8385672 B (8189.1 KB)
+  Allocated Bytes   :      576 B (   0.6 KB)
+  Minimum Free Bytes:  8385672 B (8189.1 KB)
+  Largest Free Block:  8257524 B (8064.0 KB)
+  Bus Mode          : OPI
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  3072.0 KB, type:  APP, subtype: OTA_0
+             spiffs : addr: 0x00310000, size:   896.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : Dec 18 2024 02:40:40
+  Compile Host OS   : windows
+  ESP-IDF Version   : v5.1.4-972-g632e0c2a9f-dirty
+  Arduino Version   : 3.0.7
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : ESP32S3_DEV
+  Arduino Variant   : esp32s3
+  Arduino FQBN      : esp32:esp32:esp32s3:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=240,FlashMode=dio,FlashSize=4M,PartitionScheme=huge_app,DebugLevel=verbose,PSRAM=opi,LoopCore=1,EventsCore=1,EraseFlash=all,JTAGAdapter=default,ZigbeeMode=default
+============ Before Setup End ============
+[  1532][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 19 already has type USB_DM (45) with bus 0x3fc97a78
+[  1532][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 20 already has type USB_DP (46) with bus 0x3fc97a78
+[  1540][V][esp32-hal-uart.c:408] uartBegin(): UART1 baud(9600) Mode(800001c) rxPin(18) txPin(17)
+[  1549][V][esp32-hal-uart.c:497] uartBegin(): UART1 not installed. Starting installation
+[  1557][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 18 successfully set to type UART_RX (2) with bus 0x3fc94aa4
+[  1567][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type UART_TX (3) with bus 0x3fc94aa4
+[  1578][V][esp32-hal-uart.c:560] uartBegin(): UART1 initialization done.
+[  1585][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42035cec
+[  1596][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type GPIO (1) with bus 0x2
+[  1605][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42035cec
+[  1616][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 45 successfully set to type GPIO (1) with bus 0x2e
+=========== After Setup Start ============
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   391276 B ( 382.1 KB)
+  Free Bytes        :   352344 B ( 344.1 KB)
+  Allocated Bytes   :    33516 B (  32.7 KB)
+  Minimum Free Bytes:   347340 B ( 339.2 KB)
+  Largest Free Block:   319476 B ( 312.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        :  8388608 B (8192.0 KB)
+  Free Bytes        :  8124024 B (7933.6 KB)
+  Allocated Bytes   :   262128 B ( 256.0 KB)
+  Minimum Free Bytes:  8124024 B (7933.6 KB)
+  Largest Free Block:  7995380 B (7808.0 KB)
+------------------------------------------
+GPIO Info:
+------------------------------------------
+  GPIO : BUS_TYPE[bus/unit][chan]
+  --------------------------------------  
+     1 : GPIO
+    17 : UART_TX[1]
+    18 : UART_RX[1]
+    19 : USB_DM
+    20 : USB_DP
+    43 : UART_TX[0]
+    44 : UART_RX[0]
+    45 : GPIO
+============ After Setup End =============
